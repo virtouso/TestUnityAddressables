@@ -26,8 +26,4 @@ public class MapGenerator : MonoBehaviour
         foreach (var item in group.entries)
         {
             text.text = "";
-            item.labels.ToList().ForEach(x => text.text += x);
-            await Task.Delay(300);
-        }
-    }
-}
+            item.labels.ToList().ForEach

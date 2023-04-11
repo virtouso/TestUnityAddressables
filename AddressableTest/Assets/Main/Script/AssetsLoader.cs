@@ -35,7 +35,7 @@ namespace Main.Script
 
             _percentText.text = "downlaod finished";
             yield return new  WaitForSeconds(1);
-            SceneManager.LoadScene("GameePlay");
+            SceneManager.LoadScene("GamePlay");
         }
 
 
